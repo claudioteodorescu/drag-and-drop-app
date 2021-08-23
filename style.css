@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #171717;
+  color: goldenrod;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.lists-container {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.lists-container .list {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+  height: 100%;
+  min-height: 400px;
+  margin: 0px 20px;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+.lists-container .list .list-item {
+  background-color: rgba(255, 255, 255, 0.062);
+  padding: 15px 20px;
+  text-align: center;
+  margin: 8px 12px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
